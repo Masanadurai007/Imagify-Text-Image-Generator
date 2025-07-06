@@ -1,8 +1,34 @@
-# React + Vite
+# Imagify - Text to Image Generator 🖼️✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Imagify is a full-stack MERN web application that allows users to generate images from text using AI. Users can sign up, receive free credits, and generate high-quality images. Stripe integration enables users to buy additional credits securely.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+- 🔐 **Authentication** – Secure register & login system
+- 🖼️ **AI Text-to-Image** – Generate images from text prompts using ClipDrop API
+- 💳 **Credit System** – Users start with 5 free credits; 1 credit used per image
+- 💰 **Stripe Payment Gateway** – Seamless credit purchases
+- 📊 **Usage Tracking** – Credit balance updates in real-time
+- 🌞 **Light Theme Only** – Clean and professional user interface with light mode UI
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**:
+- React.js
+- Tailwind CSS
+- React Router
+- Framer Motion
+- Axios
+
+**Backend**:
+- Node.js
+- Express.js
+- MongoDB
+- Stripe Payment API
+- ClipDrop API
+
+---
